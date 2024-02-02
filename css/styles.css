@@ -1,0 +1,139 @@
+/* Geral */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    background-color: #23252b;
+}
+
+/* Barra de navegação */
+
+#navbar {
+    margin-top: 20px;
+}
+
+.nav-list {
+    padding: 0 25px;
+}
+
+.nav-list li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.nav-list li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+
+#social-bar {
+    text-align: right;
+}
+
+/* Corpo do site */
+
+#body {
+    text-align: center;
+}
+
+#google-logo {
+    padding-top: 7%;
+    margin-bottom: 25px;
+}
+
+#input-box {
+    width: 43vw; /* view width */
+    height: 60px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-input {
+    height: 48px;
+    border-radius: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0 50px;
+    border: 2px solid #818181;
+    background-color: #23252b;
+    color: #FFF;
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+
+#search-input:hover {
+    box-shadow: 0px 0px 20px #000000;
+}
+
+
+#search-icon, #keyboard-icon, #mic-icon{
+    position: absolute;
+    top: 15px;
+    font-size: 18px;
+}
+
+#search-icon {
+    left: 20px;
+    color:  #818181;
+}
+
+#keyboard-icon {
+    right: 55px;
+    color:  #818181;
+}
+
+#mic-icon {
+    right: 20px;
+    color:  #818181;
+}
+
+#body input[type="submit"] {
+    background-color: #404144;
+    border: 1px solid #404144;
+    border-radius: 4px;
+    color: #DDD;
+    height: 34px;
+    padding: 0 16px;
+    font-size: 14px;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+
+#body input[type="submit"]:hover {
+    border-color: #818181;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    height: 52px;
+    width: 100%;
+    background-color: #1d1d1d;
+    border-top: 1px solid #818181;
+}
+
+#left-bar, #right-bar {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#right-bar {
+    position: absolute;
+    right: 0;
+}
